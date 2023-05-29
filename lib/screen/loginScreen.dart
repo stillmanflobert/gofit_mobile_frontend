@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gofit_mobile_frontend/screen/instruktur/homePage.dart';
 import 'package:gofit_mobile_frontend/screen/member/addGym.dart';
 import 'package:gofit_mobile_frontend/utilities/constants.dart';
 import 'package:gofit_mobile_frontend/service/loginProcess.dart';
@@ -62,6 +63,11 @@ class _LoginScreenState extends State<LoginScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(builder: (context) => AddGym()),
+      );
+    } else if (role == 'instruktur') {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => HomePage()),
       );
     } else {
       print('belum diketahui');

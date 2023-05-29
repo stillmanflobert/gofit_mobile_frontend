@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-class MemberElementUI {
-  static AppBar appBarMember() {
+class InsMaterialUI {
+  static AppBar appBarIns() {
     return AppBar(
       title: Center(
-        child: const Text('Member'),
+        child: const Text('Instruktur'),
       ),
       backgroundColor: Colors.blue,
     );
   }
 
-  static BottomNavigationBar BtnNavBarMember(
+  static BottomNavigationBar BtnNavBarIns(
     int selectedIndex,
     void Function(int) onTap,
   ) {

@@ -32,6 +32,16 @@ class MemberElementUI {
           backgroundColor: Colors.blue,
         ),
         BottomNavigationBarItem(
+          icon: Icon(Icons.class_),
+          label: 'Class',
+          backgroundColor: Colors.blue,
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.add),
+          label: 'add class',
+          backgroundColor: Colors.blue,
+        ),
+        BottomNavigationBarItem(
           icon: Icon(Icons.logout),
           label: 'Logout',
           backgroundColor: Colors.blue,

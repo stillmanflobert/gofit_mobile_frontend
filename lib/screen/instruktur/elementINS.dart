@@ -32,6 +32,11 @@ class InsMaterialUI {
           backgroundColor: Colors.blue,
         ),
         BottomNavigationBarItem(
+          icon: Icon(Icons.schedule),
+          label: 'Izin',
+          backgroundColor: Colors.blue,
+        ),
+        BottomNavigationBarItem(
           icon: Icon(Icons.logout),
           label: 'Logout',
           backgroundColor: Colors.blue,

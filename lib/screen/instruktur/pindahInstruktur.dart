@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gofit_mobile_frontend/screen/instruktur/historyInstruktur.dart';
+import 'package:gofit_mobile_frontend/screen/instruktur/izinInstruktur.dart';
 import 'package:gofit_mobile_frontend/screen/instruktur/profilePage.dart';
 import 'package:gofit_mobile_frontend/screen/loginScreen.dart';
 import 'package:gofit_mobile_frontend/screen/instruktur/homePage.dart';
@@ -23,6 +24,11 @@ class pindahIns {
         MaterialPageRoute(builder: (contex) => HistoryIns()),
       );
     } else if (selectedIndex == 3) {
+      Navigator.pushReplacement(
+        contex,
+        MaterialPageRoute(builder: (contex) => IzinInstruktur()),
+      );
+    } else if (selectedIndex == 4) {
       UserManager().logout();
       Navigator.pushReplacement(
         contex,
